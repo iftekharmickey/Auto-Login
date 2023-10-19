@@ -22,23 +22,29 @@ Manually logging into websites can be time-consuming, especially if you have mul
 2. Selenium library
 3. Firefox WebDriver (for other browsers, replace `webdriver.Firefox()` with the respective driver)
 
-## Getting Started
+## Installation
 
 1. Clone this repository or download the script.
-2. Install the required libraries by running:
+
+   ```python
+   git clone https://github.com/iftekharmickey/Auto-Login.git
+   ```
+   
+3. Install the required libraries by running:
 
    ```python
    pip install selenium
    ```
-3. Open the script and customize it according to your website's login page.
-4. Run the script and enjoy automated web login.
+4. Open the script and customize it according to your website's login page.
+
+5. Run the script and enjoy automated web login.
 
 ## Usage
 
 - Replace the `url` variable with the URL of the login page you want to automate.
-- Customize the XPath expressions to locate the username and password input fields.
+- Customize the `username_input` and `password_input` lines to locate the username and password input fields using the appropriate method (e.g., `By.NAME`, `By.ID`, `By.XPATH`).
 - Input your username and password.
-- Replace the `login_button` locator with the actual name attribute of the login button.
+- Customize the `login_button` line to locate and click the login button using the appropriate method (e.g., `By.NAME`, `By.ID`, `By.XPATH`).
 - Run the script and let it handle the login for you.
 
 ## Caution
@@ -51,12 +57,12 @@ This project is licensed under the MIT License. For details, see the ([LICENSE](
 
 ## Acknowledgments
 
-- Inspired by the power of automation and Selenium.
+Inspired by the power of automation and Selenium.
 
-## Contact
+## Author
+
+This tool is developed by Iftekhar Tahir.
 
 If you have any questions or suggestions, feel free to reach out at iftekhar.tahir@proton.me.
 
 Enjoy the convenience of automated web logins with the Auto-Login!
-
-s
