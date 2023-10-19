@@ -61,7 +61,7 @@ Inspired by the power of automation and Selenium.
 
 ## Author
 
-This tool is developed by Iftekhar Tahir.
+This tool is developed by [Iftekhar Tahir](https://github.com/iftekharmickey).
 
 If you have any questions or suggestions, feel free to reach out at iftekhar.tahir@proton.me.
 
